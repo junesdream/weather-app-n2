@@ -6,7 +6,7 @@ function App() {
 	const [location, setLocation] = useState("");
 
 	const url =
-			`https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid={yourApi}`;
+			`https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=56f6b53f0dc1779531c68a5210d6ff86`;
 
 	const searchLocation = (event) => {
 		if (event.key === "Enter") {
