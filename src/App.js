@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+// import Footer from "./Footer";
+
 
 function App() {
 	const [data, setData] = useState({});
@@ -32,7 +34,6 @@ function App() {
 						{data.weather ? <p>{data.weather[0].main}</p> : null}
 					</div>
 				</div>
-
 				<div className="search">
 					<input
 						value={location}
@@ -65,11 +66,10 @@ function App() {
 					</div>
 				</div>
 }
-				
-
-
 			</div>
+			{/* <Footer /> */}
 		</div>
+		
 	);
 }
 

@@ -1,0 +1,69 @@
+.footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: rgba(0, 0, 0, .6);
+    /* background-color: #000; */
+    color: #eee;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+/* .f-bg{
+    width: 20px;
+    height: 15%;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    position: absolute;
+} */
+
+/* .footer .container {
+    max-width: 1240px;
+    margin: auto;
+    text-align: center;
+  
+} */
+
+
+.bottom {
+    text-align: center;
+    padding-top: 3rem;
+  background-image: -webkit-linear-gradient(left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+
+.line {
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 480px) {
+ 
+.bottom {
+  display: block;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 100%;
+    height: 150px;
+    /* margin-top: 50px; */
+  }
+
+}
+
+@media screen and (max-width: 1080px) {
+  .footer {
+    width: 100%;
+    height: 150px;
+  }
+
+}
+
+
+
+
